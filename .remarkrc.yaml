@@ -1,5 +1,4 @@
 plugins:
-  remark-preset-lint-ocular-d:
   # Customized settings
   lint-list-item-indent: space
   lint-maximum-line-length: 220
