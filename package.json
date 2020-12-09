@@ -1,0 +1,23 @@
+{
+  "name": "vscode-testing",
+  "version": "1.0.0",
+  "description": "Testing Repo",
+  "main": "index.js",
+  "repository": "git@github.com:ocular-d/vscode-testing.git",
+  "author": "sven <sven@so36.net>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs:remark": "remark docs",
+    "docs:alex": "alex ./docs",
+    "docs:markdown": "npx markdownlint docs/*.md",
+    "docs:linkcheck": "find . -type f -name '*.md' ! -path './node_modules/*' ! -path './README.md' ! -path './.github/*' ! -path './CHANGELOG.md'| xargs -L1 markdown-link-check --quiet"
+  }
+  "devDependencies": {
+    "alex": "^9.1.0",
+    "markdown-link-check": "^3.8.4",
+    "remark-cli": "^9.0.0",
+    "remark-preset-lint-markdown-style-guide": "^4.0.0",
+    "remark-preset-lint-recommended": "^5.0.0"
+  }
+}
