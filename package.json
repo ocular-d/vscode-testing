@@ -12,7 +12,7 @@
     "docs:alex": "alex ./docs",
     "docs:markdown": "npx markdownlint docs/*.md",
     "docs:linkcheck": "find . -type f -name '*.md' ! -path './node_modules/*' ! -path './README.md' ! -path './.github/*' ! -path './CHANGELOG.md'| xargs -L1 markdown-link-check --quiet"
-  }
+  },
   "devDependencies": {
     "alex": "^9.1.0",
     "markdown-link-check": "^3.8.4",
