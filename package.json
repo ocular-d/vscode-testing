@@ -14,6 +14,6 @@
     "docs:linkcheck": "find . -type f -name '*.md' ! -path './node_modules/*' ! -path './README.md' ! -path './.github/*' ! -path './CHANGELOG.md'| xargs -L1 markdown-link-check --quiet"
   },
   "devDependencies": {
-    "ocld-writing": "^0.0.2"
-    }
+    "ocld-writing": "^0.0.3"
+  }
 }

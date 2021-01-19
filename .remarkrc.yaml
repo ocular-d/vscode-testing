@@ -10,3 +10,4 @@ plugins:
   lint-table-pipe-alignment: false
   lint-no-undefined-references: false
   lint-table-cell-padding: false
+  lint-no-missing-blank-lines: true
